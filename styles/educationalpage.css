@@ -164,3 +164,108 @@ header {
 .skills:hover {
   opacity: 0.7;
 }
+
+.arrow-pic {
+  width: 120px;
+}
+
+.custom-shape-divider-bottom-1731195880 {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  margin-top: 100px;
+}
+
+.custom-shape-divider-bottom-1731195880 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1731195880 .shape-fill {
+  fill: #37598f;
+}
+
+.closing-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  background-color: #37598f;
+}
+
+.closing-topic {
+  font-size: 25px;
+  font-weight: Bold;
+  color: rgb(252, 84, 84);
+  text-decoration: underline;
+}
+
+.closing-message {
+  width: 400px;
+  font-size: 15px;
+  color: white;
+}
+
+.team-pic {
+  width: 280px;
+  height: 200px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: width 0.5s, height 0.7s;
+  
+}
+
+.team-pic:hover {
+  width: 290px;
+  height: 210px;
+  box-shadow: 10px 10px 30px rgba(247, 244, 244, 0.8);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+  background-color: #0B1320;
+}
+
+.enquiry {
+  font-size: 17px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  transition: color 0.8s;
+}
+
+.enquiry:hover {
+  color: yellow;
+}
+
+.enquiry-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+
+/* Style the video to cover the whole body */
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Keeps video proportions */
+  transform: translate(-50%, -50%);
+  z-index: -1; /* Send it to the back */
+}
+
