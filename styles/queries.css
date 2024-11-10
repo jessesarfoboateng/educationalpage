@@ -1,0 +1,130 @@
+
+@media (max-width: 599px) {
+
+  /* General layout and text wrapping */
+  * {
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow-x: hidden;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .custom-shape-divider-top-1730987850, .custom-shape-divider-bottom-1731195880 {
+    display: none;
+  }
+  /* Header */
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+  }
+
+  .logo {
+    width: 60px;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+
+  .menu-button {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-right: 0px;
+  }
+
+  /* Main Content */
+  .bio {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .description-body, .first-heading, .second-heading, .first-description, .third-heading, .closing-message {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 0;
+  }
+
+  .second-heading, .third-heading {
+    font-size: 20px;
+    color: rgb(235, 154, 33);
+  }
+
+  .company-pic {
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+  }
+
+  /* Skills Section */
+  .skills-layout {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .skills {
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  /* Client Info Section */
+  .client-info, .closing-layout {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .suggestion-layout, .steps, .suggestion {
+    font-size: 16px;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .steps {
+    margin: 0;
+  }
+
+  .arrow-pic {
+    display: none;
+  }
+
+  .team-pic {
+    margin-bottom: 35px;
+    box-shadow: 10px 10px 30px rgba(247, 244, 244, 0.8);
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .enquiry-layout {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+  }
+
+  .enquiry {
+    font-size: 14px;
+    padding: 5px;
+    border-bottom: solid;
+    border-bottom-color: gray;
+  }
+}

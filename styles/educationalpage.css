@@ -2,6 +2,23 @@
   font-family: Poppins, Arial;
 }
 
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Keeps video proportions */
+  transform: translate(-50%, -50%);
+  z-index: -1; /* Send it to the back */
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -251,21 +268,8 @@ footer {
   width: 40%;
 }
 
-/* Style the video to cover the whole body */
-.video-background {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
 
-video {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Keeps video proportions */
-  transform: translate(-50%, -50%);
-  z-index: -1; /* Send it to the back */
-}
+
+
+
 
