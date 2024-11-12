@@ -202,7 +202,7 @@ header {
 }
 
 .custom-shape-divider-bottom-1731195880 .shape-fill {
-  fill: #37598f;
+  fill: rgb(8, 79, 102);
 }
 
 .closing-layout {
@@ -210,13 +210,13 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0px 20px;
-  background-color: #37598f;
+  background-color:  rgb(8, 79, 102);
 }
 
 .closing-topic {
   font-size: 25px;
   font-weight: Bold;
-  color: rgb(252, 84, 84);
+  color: #FFA500;
   text-decoration: underline;
 }
 
